@@ -1,0 +1,26 @@
+{
+  "name": "usps-tracker",
+  "version": "1.0.0",
+  "description": "a USPS tracking API that returns JSON results to be consumed by messenger bots",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vic7ord1st/USPS-Tracker.git"
+  },
+  "author": "Victor Okoroafor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vic7ord1st/USPS-Tracker/issues"
+  },
+  "homepage": "https://github.com/vic7ord1st/USPS-Tracker#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}
