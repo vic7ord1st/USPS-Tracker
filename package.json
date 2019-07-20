@@ -1,22 +1,29 @@
 {
-  "name": "usps-tracker",
-  "version": "1.0.0",
-  "description": "a USPS tracking API that returns JSON results to be consumed by messenger bots",
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vic7ord1st/USPS-Tracker.git"
+  "scripts": {
+    "start": "node server.js"
   },
-  "author": "Victor Okoroafor",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vic7ord1st/USPS-Tracker/issues"
-  },
-  "homepage": "https://github.com/vic7ord1st/USPS-Tracker#readme",
-
   "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.0"
-  }
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "xml-to-json-stream": "^1.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
 }
